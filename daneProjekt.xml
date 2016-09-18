@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dane>
+    <ksiazka>
+        <idk>3</idk>
+        <tytul>Lokomotywa</tytul>
+        <autor>Julian Tuwim</autor>
+    </ksiazka>
+    <ksiazka>
+        <idk>4</idk>
+        <autor>Tamara Michałowska</autor>
+        <tytul>Janosik</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>5</idk>
+        <autor>Henryk Sienkiewicz</autor>
+        <tytul>W pustyni i w puszczy</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>6</idk>
+        <autor>Juliusz Słowacki</autor>
+        <tytul>Kordian</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>7</idk>
+        <autor>Jan Kochanowski</autor>
+        <tytul>Treny</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>8</idk>
+        <autor>Jan Kochanowski</autor>
+        <tytul>Fraszki</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>9</idk>
+        <autor>Wiesław Rychlicki</autor>
+        <tytul>Programowanie w języku Java. Zbiór zadań z (p)odpowiedziami</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>10</idk>
+        <autor>Helena Rasiowa</autor>
+        <tytul>Wstęp do matematyki współczesnej</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>11</idk>
+        <autor>Jerzy Grębosz</autor>
+        <tytul>Symfonia C++</tytul>
+    </ksiazka>
+	<ksiazka>
+        <idk>12</idk>
+        <autor>Kazimierz Trzęsicki</autor>
+        <tytul>Logika i teoria mnogości</tytul>
+    </ksiazka>
+
+    <czytelnik>
+        <idc>3</idc>
+        <imie>Adam</imie>
+        <nazwisko>Abacki</nazwisko>
+        <miasto>Adamów</miasto>
+    </czytelnik>
+    <czytelnik>
+        <idc>4</idc>
+        <imie>Barbara</imie>
+        <nazwisko>Babacka</nazwisko>
+        <miasto>Babica</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>5</idc>
+        <imie>Cecylia</imie>
+        <nazwisko>Cabacka</nazwisko>
+        <miasto>Częstochowa</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>6</idc>
+        <imie>Dariusz</imie>
+        <nazwisko>Dabacki</nazwisko>
+        <miasto>Dydnia</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>7</idc>
+        <imie>Edward</imie>
+        <nazwisko>Ebacki</nazwisko>
+        <miasto>Elbląg</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>8</idc>
+        <imie>Felix</imie>
+        <nazwisko>Fabacki</nazwisko>
+        <miasto>Futoma</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>9</idc>
+        <imie>Genowefa</imie>
+        <nazwisko>Gabacka</nazwisko>
+        <miasto>Grudziądz</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>10</idc>
+        <imie>Hanna</imie>
+        <nazwisko>Habacka</nazwisko>
+        <miasto>Hyżne</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>11</idc>
+        <imie>Irena</imie>
+        <nazwisko>Ibacka</nazwisko>
+        <miasto>Iwonicz Zdrój</miasto>
+    </czytelnik>
+	<czytelnik>
+        <idc>12</idc>
+        <imie>Jarosław</imie>
+        <nazwisko>Jabacki</nazwisko>
+        <miasto>Jarosław</miasto>
+    </czytelnik>
+
+    <wypozyczenie>
+        <idwypozycz>1</idwypozycz>
+        <idksiazka>1</idksiazka>
+        <idczytelnik>1</idczytelnik>
+        <status>0</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>2</idwypozycz>
+        <idksiazka>5</idksiazka>
+        <idczytelnik>9</idczytelnik>
+        <status>-13</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>3</idwypozycz>
+        <idksiazka>6</idksiazka>
+        <idczytelnik>4</idczytelnik>
+        <status>+8</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>4</idwypozycz>
+        <idksiazka>2</idksiazka>
+        <idczytelnik>12</idczytelnik>
+        <status>+19</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>5</idwypozycz>
+        <idksiazka>4</idksiazka>
+        <idczytelnik>12</idczytelnik>
+        <status>-30</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>6</idwypozycz>
+        <idksiazka>3</idksiazka>
+        <idczytelnik>3</idczytelnik>
+        <status>0</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>7</idwypozycz>
+        <idksiazka>8</idksiazka>
+        <idczytelnik>2</idczytelnik>
+        <status>+4</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>8</idwypozycz>
+        <idksiazka>7</idksiazka>
+        <idczytelnik>6</idczytelnik>
+        <status>+8</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>9</idwypozycz>
+        <idksiazka>11</idksiazka>
+        <idczytelnik>9</idczytelnik>
+        <status>-3</status>
+    </wypozyczenie>
+	<wypozyczenie>
+        <idwypozycz>10</idwypozycz>
+        <idksiazka>12</idksiazka>
+        <idczytelnik>8</idczytelnik>
+        <status>+2</status>
+    </wypozyczenie>
+</dane>
